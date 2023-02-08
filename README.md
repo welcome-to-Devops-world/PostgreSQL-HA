@@ -83,7 +83,7 @@ $ helm upgrade my-release my-repo/postgresql-ha \
 ```
 ### On kubernetes
 ```
-helm install postgresql-ha bitnami/postgresql-ha --set postgresql.password=postgresql --set postgresql.repmgrPassword=repmgr -n landrocker-dev
+helm install postgresql-ha bitnami/postgresql-ha --set postgresql.password=postgresql --set postgresql.repmgrPassword=repmgr -n <NAMESPACE>
 ```
 
 | Note: you need to substitute the placeholders [POSTGRES_PASSWORD], and [REPMGR_PASSWORD] with the values obtained from instructions in the installation notes.
