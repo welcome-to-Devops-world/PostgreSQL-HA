@@ -99,7 +99,7 @@ postgresql:
   ## @param postgresql.image.debug Specify if debug logs should be enabled
   ##
   image:
-    registry: docker-repo.artifactory.me
+    registry: docker.io
     repository: bitnami/postgresql-repmgr
     tag: 14.5.0-debian-11-r19
     digest: ""
@@ -594,7 +594,7 @@ pgpool:
   ## @param pgpool.image.debug Specify if debug logs should be enabled
   ##
   image:
-    registry: docker-repo.artifactory.me
+    registry: docker.io
     repository: bitnami/pgpool
     tag: 4.3.3-debian-11-r13
     digest: ""

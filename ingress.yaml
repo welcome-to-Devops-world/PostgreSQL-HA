@@ -6,7 +6,7 @@
      nginx.ingress.kubernetes.io/rewrite-target: /
  spec:
    rules:
-   - host: postgres-dev.cloud.lan
+   - host: postgres-dev.lan
      http:
        paths:
        - path: /
